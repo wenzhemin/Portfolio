@@ -1,0 +1,16 @@
+{
+  "name": "Portfolio",
+  "version": "0.1.0",
+  "description": "Portfolio Website",
+  "author": "Thomas Alexander Woolff",
+  "devDependencies": {
+    "autoprefixer": "^6.5.3",
+    "cssnano": "^3.8.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^6.2.0",
+    "gulp-util": "^3.0.7",
+    "gulp-webserver": "^0.9.1",
+    "precss": "^1.4.0"
+  }
+}

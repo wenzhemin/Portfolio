@@ -1,0 +1,15 @@
+@import "normalize";
+@import "fontawesome";
+@import "animate";
+@import "variables";
+@import "base";
+@import "mixins";
+
+@import "sections/header";
+@import "sections/logo";
+@import "sections/about";
+@import "sections/cv";
+@import "sections/contact";
+@import "sections/print";
+@import "sections/web";
+@import "sections/art";
