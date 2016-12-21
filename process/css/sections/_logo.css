@@ -1,0 +1,65 @@
+.logo {
+    margin: 2rem 0 0 0;
+    background-color: $color-main;
+    width: 10rem;
+    height: 24.4rem;
+    overflow: wordbreak;
+}
+
+.logo span {
+    font-family: "bebas-neue",sans-serif;
+    color: $color-background;
+    font-size: 9rem;
+    position: relative;
+}
+
+span.letter1 {
+    margin-left: 1rem;
+    top: 3rem;
+    z-index: 1;
+    animation: getshadow 3.8s ease-in 0s infinite alternate;
+}
+
+span.letter2 {
+    margin-left: -1.5rem;
+    top: 3.1rem;
+    z-index: 0;
+    animation: getshadow 1.3s linear 0s infinite alternate;
+}
+
+span.letter3 {
+    margin-left: 2rem;
+    top: 4rem;
+    z-index: 2;
+    animation: getshadow 1s ease-out 0s infinite alternate;
+}
+
+span.letter4 {
+    margin-left: 0rem;
+    top: 3rem;
+    z-index: 0;
+    animation: getshadow 2.8s ease 0s infinite alternate;
+}
+
+span.letter5 {
+    margin-left: 1rem;
+    top: 4rem;
+    z-index: 1;
+    animation: getshadow 1.8s ease-out 0s infinite alternate;
+}
+
+span.letter6 {
+    margin-left: 0rem;
+    top: 3rem;
+    z-index: 5;
+    animation: getshadow 3.2s ease-in 0s infinite alternate;
+}
+
+@keyframes getshadow {
+    from {
+        text-shadow: 0em 0em 0.1em rgba(10,10,10,1);
+    }
+    to {
+        text-shadow: 0.05em 0.05em 0.3em rgba(10,10,10,1);
+    }
+}

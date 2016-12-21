@@ -16,9 +16,6 @@ body {
     font-size: 1.8rem;
     line-height: 120%;
     font-weight: $font-weight-normal;
-    background-image: url(../images/bgtest.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -45,18 +42,4 @@ a:hover, a:focus {
 main {
     margin: 0;
     padding: 0;
-}
-
-section {
-    height: 100vh;
-    text-transform: uppercase;
-    
-    h2 {
-        background-color: $color-main;
-        color: $color-background;
-        font-size: 2rem;
-        line-height: 120%;
-        padding: 0 .5rem;
-        max-width: 15rem;
-    }
 }
