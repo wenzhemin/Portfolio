@@ -42,4 +42,5 @@ a:hover, a:focus {
 main {
     margin: 0;
     padding: 0;
+    width: 100%;
 }

@@ -4,6 +4,7 @@
 @import "variables";
 @import "base";
 
+@import "sections/header";
 @import "sections/logo";
 @import "sections/navigation";
-
+@import "sections/article";

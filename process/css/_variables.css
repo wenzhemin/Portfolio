@@ -15,8 +15,8 @@ $red:      #D14348;
 $purple:   #6D73C2;
 $grey:     #A1A1A1;
 
-$color-main: black;
-$color-background: white;
+$color-main: white;
+$color-background: #ccc;
 
 $small: screen and (max-width: 700px);
 $medium: screen and (min-width: 701px);
