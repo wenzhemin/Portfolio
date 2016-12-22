@@ -22,7 +22,7 @@ nav {
     }
     
     a:hover, a:focus {
-        color: $color-background;;
+        color: $black;
     }   
 
 }
