@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,600,700');
-
 $font-main: Raleway, Helvetica, Arial, sans-serif;
 $font-weight-normal: 300;
 $font-weight-bold: 600;
@@ -14,6 +12,7 @@ $yellow:   #F3D350;
 $red:      #D14348;
 $purple:   #6D73C2;
 $grey:     #A1A1A1;
+$black:    #000000;
 
 $color-main: white;
 $color-background: #ccc;
