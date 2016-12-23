@@ -15,11 +15,12 @@ $grey:     #A1A1A1;
 $black:    #000000;
 
 $color-main: white;
-$color-background: #ccc;
+$color-background: #CCCCCC;
 
-$small: screen and (max-width: 700px);
-$medium: screen and (min-width: 701px);
-$large: screen and (min-width: 1200px);
+$micro: screen and (max-width: 320px); /* older mobile phones */
+$small: screen and (max-width: 767px); /* mobile phones */ 
+$medium: screen and (min-width: 768px); /* tablets */
+$large: screen and (min-width: 1200px); /* laptops + desktops */
 
 $container-default-width: 80%;
 $container-max-width: 1200px;

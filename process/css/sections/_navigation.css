@@ -11,7 +11,11 @@ nav {
     flex: 1 0 auto;   
     text-align: center;
     font-size: 1.2rem;
-    padding: 0 1.8rem 0 0; 
+    padding: 0 2rem 0 0;
+        
+        @media $micro {
+            padding: 0 1.2rem 0 0;
+        }
     }
 
     a {
