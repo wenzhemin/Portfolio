@@ -1,4 +1,4 @@
-.fullscreen-bg {
+.fullscreen-bg, .fullscreen-bg2, .fullscreen-bg3 {
   position: fixed;
   top: 0;
   right: 0;
@@ -33,6 +33,26 @@
 @media $small {
   .fullscreen-bg {
     background: url('../images/1.gif') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg_video {
+    display: none;
+  }
+}
+
+@media $small {
+  .fullscreen-bg2 {
+    background: url('../images/2.gif') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg_video {
+    display: none;
+  }
+}
+
+@media $small {
+  .fullscreen-bg3 {
+    background: url('../images/3.gif') center center / cover no-repeat;
   }
 
   .fullscreen-bg_video {

@@ -27,6 +27,10 @@ nav {
     
     a:hover, a:focus {
         color: $black;
-    }   
+    } 
+    
+    .focused {
+        text-decoration: underline;
+    }
 
 }
