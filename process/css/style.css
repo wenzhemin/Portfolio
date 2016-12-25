@@ -3,9 +3,10 @@
 @import "animate";
 @import "variables";
 @import "base";
-@import "video";
 
 @import "sections/header";
 @import "sections/logo";
 @import "sections/navigation";
+@import "sections/video";
 @import "sections/article";
+@import "sections/footer";

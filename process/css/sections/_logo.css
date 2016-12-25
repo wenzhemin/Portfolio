@@ -6,7 +6,7 @@
 }
 
 .logo span {
-    font-family: "bebas-neue",sans-serif;
+    font-family: $font-logo;
     color: $color-main;
     font-size: 9rem;
     position: relative;

@@ -1,4 +1,6 @@
 $font-main: Raleway, Helvetica, Arial, sans-serif;
+$font-logo: "bebas-neue",sans-serif;
+
 $font-weight-normal: 300;
 $font-weight-bold: 600;
 $font-weight-heavy: 700;
@@ -12,6 +14,7 @@ $yellow:   #F3D350;
 $red:      #D14348;
 $purple:   #6D73C2;
 $grey:     #A1A1A1;
+$darkgrey: #555252;
 $black:    #000000;
 
 $color-main: white;
