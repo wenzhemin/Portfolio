@@ -2,9 +2,24 @@ article {
     padding: 1.3rem;
     
     h1 {
-        text-align: center;
-        font-size: 6.5rem;
+        font-size: 4rem;
         font-weight: $font-weight-bold;
         margin: 0 0 1.5rem 0;
+        opacity: .5;
+        letter-spacing: 13vw;
+        
+        @media $large {
+            letter-spacing: 14.3vw;
+        }
+        
+        @media $small {
+            letter-spacing: 9.5vw;
+        }
+        
+        @media $micro {
+            letter-spacing: 7.6vw;
+        }
     }
+    
+
 }
