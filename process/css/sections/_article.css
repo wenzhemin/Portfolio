@@ -19,7 +19,21 @@ article {
         @media $micro {
             letter-spacing: 7.6vw;
         }
-    }
-    
+    }    
+}
 
+article.resume h1 {
+    letter-spacing: 15.5vw;
+        
+        @media $large {
+            letter-spacing: 17.2vw;
+        }
+        
+        @media $small {
+            letter-spacing: 11vw;
+        }
+        
+        @media $micro {
+            letter-spacing: 9.3vw;
+        }
 }
