@@ -5,20 +5,16 @@ $font-weight-normal: 300;
 $font-weight-bold: 600;
 $font-weight-heavy: 700;
 
-$offwhite: #EEE8D6;
-$darkblue: #022933;
-$blue:     #0076A3;
-$green:    #BFC406;
+$white:    #FFFFFF;
+$lightgrey:#CCCCCC;
 $orange:   #FFB12F;
 $yellow:   #F3D350;
-$red:      #D14348;
-$purple:   #6D73C2;
 $grey:     #A1A1A1;
 $darkgrey: #555252;
 $black:    #000000;
 
-$color-main: white;
-$color-background: #CCCCCC;
+$color-main: $white;
+$color-background: $lightgrey;
 
 $micro: screen and (max-width: 320px); /* older mobile phones */
 $small: screen and (max-width: 767px); /* mobile phones */ 
