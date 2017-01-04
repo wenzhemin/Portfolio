@@ -4,7 +4,7 @@ article {
     h1 {
         font-size: 4rem;
         font-weight: $font-weight-bold;
-        margin: 0 0 1.5rem 0;
+        margin: 0 0 2rem 0;
         opacity: .5;
         letter-spacing: 13vw;
         
@@ -17,7 +17,7 @@ article {
         }
         
         @media $micro {
-            letter-spacing: 7.6vw;
+            letter-spacing: 6.7vw;
         }
     } 
     
@@ -65,6 +65,34 @@ article.resume h1 {
 
 .sideways {
     writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl; 
+    -webkit-writing-mode: vertical-rl;
+    -moz-writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl;
     margin: 0 0 0 15rem;
     text-transform: uppercase;
+}
+
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    opacity: .9;
+    margin: 0 0 1.4rem 0; 
+    
+    h2 {
+        padding: 1rem;
+        max-width: 120rep;
+        }
+    
+    @media $micro {
+        max-width: 276px;
+        }
+    
+    p {
+        padding: 0 0 1rem 1rem;
+    }
+}
+
+aside.personlig {
+    background-color: $orange;    
 }
