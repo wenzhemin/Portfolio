@@ -9,4 +9,5 @@
 @import "sections/navigation";
 @import "sections/video";
 @import "sections/article";
+@import "sections/lightbox";
 @import "sections/footer";

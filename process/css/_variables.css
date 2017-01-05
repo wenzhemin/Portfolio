@@ -5,13 +5,14 @@ $font-weight-normal: 300;
 $font-weight-bold: 600;
 $font-weight-heavy: 700;
 
-$white:    #FFFFFF;
-$lightgrey:#CCCCCC;
-$orange:   #FFB12F;
-$yellow:   #F3D350;
-$grey:     #A1A1A1;
-$darkgrey: #555252;
-$black:    #000000;
+$white:        #FFFFFF;
+$lightgrey:    #CCCCCC;
+$orange:       #E56E1F;
+$pink:         #FF9999;
+$blue:         #0000FF;
+$grey:         #A1A1A1;
+$darkgrey:     #555252;
+$black:        #000000;
 
 $color-main: $white;
 $color-background: $lightgrey;
@@ -20,6 +21,3 @@ $micro: screen and (max-width: 320px); /* older mobile phones */
 $small: screen and (max-width: 767px); /* mobile phones */ 
 $medium: screen and (min-width: 768px); /* tablets */
 $large: screen and (min-width: 1200px); /* laptops + desktops */
-
-$container-default-width: 80%;
-$container-max-width: 1200px;

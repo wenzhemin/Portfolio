@@ -5,19 +5,24 @@ article {
         font-size: 4rem;
         font-weight: $font-weight-bold;
         margin: 0 0 2rem 0;
+        line-height: normal;
         opacity: .5;
         letter-spacing: 13vw;
+        overflow: hidden;
         
         @media $large {
             letter-spacing: 14.3vw;
+            overflow: hidden;
         }
         
         @media $small {
-            letter-spacing: 9.5vw;
+            letter-spacing: 38px;
+            overflow: hidden;
         }
         
         @media $micro {
             letter-spacing: 6.7vw;
+            overflow: hidden;
         }
     } 
     
@@ -49,17 +54,21 @@ article {
 
 article.resume h1 {
     letter-spacing: 15.5vw;
+    overflow: hidden;
         
         @media $large {
             letter-spacing: 17.2vw;
+            overflow: hidden;
         }
         
         @media $small {
             letter-spacing: 11vw;
+            overflow: hidden;
         }
         
         @media $micro {
             letter-spacing: 9.3vw;
+            overflow: hidden;
         }
 }
 
@@ -81,7 +90,7 @@ aside {
     
     h2 {
         padding: 1rem;
-        max-width: 120rep;
+        max-width: 120rem;
         }
     
     @media $micro {
@@ -94,5 +103,18 @@ aside {
 }
 
 aside.personlig {
-    background-color: $orange;    
+    background-color: $orange;   
+}
+
+aside.web {
+    background-color: $blue;    
+}
+
+aside.tryk {
+    background-color: $pink;    
+}
+
+a.arbejde {
+    text-decoration: none;
+    color: $white;
 }
