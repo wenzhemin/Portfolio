@@ -82,39 +82,67 @@ article.resume h1 {
     text-transform: uppercase;
 }
 
-aside {
+article.arbejde {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+aside {
+    position: relative;
+    margin: 0 0 1.4rem 0;
     opacity: .9;
-    margin: 0 0 1.4rem 0; 
+    
+    span {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        
+        @media $small {
+            top: 0;
+            left: 0;
+        }
+    }
     
     h2 {
-        padding: 1rem;
-        max-width: 120rem;
+        font-size: 2.5rem;
+        line-height: 2.2rem;
+        color: $blue;
+        background-color: $white;
+        padding: 0;
+        
+        @media $small {
+            font-size: 2rem;
+            line-height: 1.9rem;
         }
-    
-    @media $micro {
-        max-width: 276px;
+        
+        @media $micro {
+            font-size: 1.8rem;
+            line-height: 1.6rem;
+        }
         }
     
     p {
-        padding: 0 0 1rem 1rem;
+        line-height: 2rem;
+        padding: 0;
+        opacity: .7;
+        background-color: $white;
+        
+         @media $small {
+            line-height: 1.7rem;
+            font-size: 1.7rem;
+        }
+         @media $micro {
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+        }
     }
 }
 
-aside.personlig {
-    background-color: $orange;   
-}
+aside.full {
+    width: 100%;
+    }
 
-aside.web {
-    background-color: $blue;    
-}
-
-aside.tryk {
-    background-color: $pink;    
-}
-
-a.arbejde {
-    text-decoration: none;
-    color: $white;
+aside.half {
+    width: calc(50% - 1rem);
 }
