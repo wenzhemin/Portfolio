@@ -1,0 +1,83 @@
+{
+    "full_name" : "Thomas Alexander Woolff",
+    "pages" : [
+            { "resumé" : "resume.html" },
+            { "arbejde" : "arbejde.html" }
+        ],
+    "cv" : "woolff_resume.pdf",
+    "intro" : "Mit navn er Thomas Alexander Woolff, jeg har beskæftiget med grafisk design og front-end udvikling siden 2001. I øjeblikket arbejder jeg på at blive en full-stack udvikler. Ved siden af dette arbejder jeg som billedkunstner.",
+    "links" : [
+            { "email" : "t@woolff.dk" },
+            { "linkedin" : "http://www.linkedin.com/in/woolff" },
+            { "facebook" : "https://www.facebook.com/thomasalexander.woolff" },
+            { "instagram" : "https://www.instagram.com/TAWoolff/" },
+            { "tumblr" : "http://blogwoolff.tumblr.com/" },
+            { "twitter" : "https://twitter.com/TAWoolff/" },
+            { "youtube" : "https://www.youtube.com/thomasalexanderwoolff" }
+        ],
+    "projects" : [
+            { "project" : [
+            { "project_title" : "Transformation ved Repetition" },
+            { "info" : "Sort kuglepen på papir." },
+            { "project_year" : "2016-" },
+            { "images" : [ 
+              { "01" : "transformation01.jpg" }, 
+              { "02" : "transformation02.jpg" },
+              { "03" : "transformation03.jpg" }, 
+              { "04 - multiplikativ strata" : "transformation04.jpg" },
+              { "05 - uidé" : "transformation05.jpg" }, 
+              { "06 - tab af vand" : "transformation06.jpg" },
+              { "07 - ulvekæbe" : "transformation07.jpg" }, 
+              { "08 - rhizomatisk konstrukt" : "transformation08.jpg" },
+              { "09 - reterritorialiseret plateau" : "transformation09.jpg" }, 
+              { "10 - insekternes tidsalder" : "transformation10.jpg" },
+              { "11 - n-1" : "transformation11.jpg" }, 
+              { "12 - de dødes dialog" : "transformation12.jpg" },
+              { "13 - uendelig returnering" : "transformation13.jpg" }, 
+              { "14 - Tetsuo Shima" : "transformation14.jpg" }
+              ] }
+             ] },
+             { "project" : [
+            { "project_title" : "Blæk Portrætter" },
+            { "info" : "Some drawings" },
+            { "project_year" : "2016-" },
+            { "images" : [ 
+              { "Hr. Blyme Blæk" : "ink01.jpg" }, 
+              { "Blæk Daniel" : "ink02.jpg" },
+              { "Blæk Lasse" : "ink03.jpg" }, 
+              { "Hr. Thomsen Blæk" : "ink04.jpg" }, 
+              { "Blæk Alex" : "ink05.jpg"},
+              { "Le Boeuf Le Blaek" : "ink06.jpg"}
+              ] }
+             ] },
+             { "project" : [
+            { "project_title" : "Første Semestereksamen" },
+            { "info" : "Hjemmeside og identitet for Køge BMX Klub" },
+            { "project_year" : "2016" },
+            { "images" : [ 
+              { "Køge 1" : "koege01.jpg" }, 
+              { "Køge 2" : "koege02.jpg" }
+              ] }
+             ] },
+             { "project" : [
+            { "project_title" : "Selvportræt i tre dele" },
+            { "info" : "Oliemaleri" },
+            { "project_year" : "2016" },
+            { "images" : [ 
+              { "Selvportræt i tre dele" : "selvportraet01.jpg" },
+              { "Blyantsskitse" : "selvportraet02.jpg"}
+              ] }
+             ] },
+             { "project" : [
+            { "project_title" : "Koncertplakat" },
+            { "info" : "Plakat for " },
+            { "project_year" : "2015" },
+            { "images" : [ 
+              { "Plakat på farvet papir" : "plakat01.jpg" },
+              { "Plakat på hvidt papir" : "plakat02.jpg" }
+              ] }
+             ] }
+          ]
+  
+}
+

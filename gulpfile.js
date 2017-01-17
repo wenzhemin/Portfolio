@@ -24,7 +24,7 @@ gulp.task('js', function() {
   gulp.src(jsSources)
     .pipe(concat('script.js'))
     .on('error', gutil.log)
-    .pipe(gulp.dest(dest + 'js'));
+    .pipe(gulp.dest(dest));
 });
           
 gulp.task('css', function() {
