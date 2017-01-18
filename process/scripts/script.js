@@ -1,5 +1,26 @@
 $(document).ready(function(){
 
+ 
+$.getJSON('data.json', function(data) {
+        $('#intro').append(data.intro);
+         });
+        
+ 
+ $.getJSON('projects.json', function(data) {
+
+        var output='';
+        $.each(data, function(key, val) {
+              output += '<a href="' + val.project_url + '">' + '<span>';
+              output += '<h2>' + val.project_title + '</h2>';
+              output += '<p>' + val.project_year + ' ' + val.info + '</p></span></a>';  
+              });
+              output += '';
+
+        $('#projekter').append(output);
+
+    }); // get JSON
+    
+    
 // LIGHTBOX WITH IMAGEZOOM//
 var pictures = document.querySelectorAll('article picture');
 
@@ -8,6 +29,7 @@ pictures.forEach(function( pic ){
      this.classList.toggle('lightbox');
   });
 });
+    
 
 // GREETING //
 var tid = new Date().getHours();
@@ -32,27 +54,4 @@ var tid = new Date().getHours();
 
 	$('.greeting').append(besked);
     
-    
-// DATA.JSON //
-
-
-    
-    $.getJSON('data.json', function(info) {
-        
-        var output='';
-        for (var i = 0; i <= info.links.length-1; i++) {
-            for (key in info.links[i]) {
-                if (info.links[i].hasOwnProperty(key)) {
-                    output += '<li>' +
-                    '<a href = "' + info.links[i][key] +
-                    '">' + key + '</a>';
-                    '</li>';
-                }
-            }
-        }
-        
-        var update = document.getElementById('links');
-        update.innerHTML = output;
-   
-    }); // get JSON
 }); // ready

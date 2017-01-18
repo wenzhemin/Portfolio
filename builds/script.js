@@ -5,6 +5,20 @@ $.getJSON('data.json', function(data) {
         $('#intro').append(data.intro);
          });
         
+ 
+ $.getJSON('projects.json', function(data) {
+
+        var output='';
+        $.each(data, function(key, val) {
+              output += '<a href="' + val.project_url + '">' + '<span>';
+              output += '<h2>' + val.project_title + '</h2>';
+              output += '<p>' + val.project_year + ' ' + val.info + '</p></span></a>';  
+              });
+              output += '';
+
+        $('#projekter').append(output);
+
+    }); // get JSON
     
     
 // LIGHTBOX WITH IMAGEZOOM//
@@ -15,6 +29,7 @@ pictures.forEach(function( pic ){
      this.classList.toggle('lightbox');
   });
 });
+    
 
 // GREETING //
 var tid = new Date().getHours();
