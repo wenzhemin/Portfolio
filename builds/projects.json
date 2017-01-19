@@ -1,8 +1,9 @@
 [
   { 
+    "project_number" : "01.",
     "project_title" : "Transformation ved Repetition",
     "project_url" : "projekt_transformation.html",
-    "info" : "Sort kuglepen på papir.",
+    "info" : "Sort kuglepen på papir. Baseret på udgivelsen fra 1988: “1000 plateuer” af Gilles Deleuze og Felix Guattari.",
     "project_year" : "2016-",
     "images" : { 
         "01" : "transformation01.jpg", 
@@ -22,9 +23,10 @@
       } 
   },
   { 
+    "project_number" : "02.", 
     "project_title" : "Blæk Portrætter",
     "project_url" : "projekt_ink.html",
-     "info" : "Some drawings",
+     "info" : "Blæk på papir. Mål: 15x15cm. Portrætter af venner, bekendte og andre mennesker.",
      "project_year" : "2016-",
      "images" : { 
         "Hr. Blyme Blæk" : "ink01.jpg", 
@@ -36,9 +38,10 @@
       }
   },
   { 
+    "project_number" : "03.",
     "project_title" : "Første Semestereksamen",
     "project_url" : "projekt_koege.html",
-    "info" : "Hjemmeside og identitet for Køge BMX Klub",
+    "info" : "Eksamensprojekt. Hjemmeside og identitet for Køge BMX Klub.",
     "project_year" : "2016",
      "images" : { 
          "Køge 1" : "koege01.jpg", 
@@ -46,9 +49,10 @@
       }
   },
   { 
+    "project_number" : "04.", 
     "project_title" : "Selvportræt i tre dele",
     "project_url" : "projekt_selvportraet.html",
-    "info" : "Oliemaleri",
+    "info" : "Selvportræt. Oliemaling på MDF-plade. Mål: 52x40cm.",
     "project_year" : "2016",
     "images" : { 
          "Selvportræt i tre dele" : "selvportraet01.jpg",
@@ -56,9 +60,10 @@
      }
   },
   { 
+    "project_number" : "05.",
     "project_title" : "Koncertplakat",
     "project_url" : "projekt_koncertplakat.html",
-    "info" : "Plakat for ",
+    "info" : "Koncertplakat for Svag, ond og liderlig booking til en koncert på Loppen d. 21. August 2015 med bandsne Golden Pelicans, The War Goes On og Gutter Oil",
     "project_year" : "2015",
     "images" : { 
           "Plakat på farvet papir" : "plakat01.jpg",

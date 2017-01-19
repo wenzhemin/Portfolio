@@ -10,6 +10,7 @@ $.getJSON('data.json', function(data) {
 
         var output='';
         $.each(data, function(key, val) {
+              output += '<h4>' + val.project_number + '</h4>';
               output += '<a href="' + val.project_url + '">' + '<span>';
               output += '<h2>' + val.project_title + '</h2>';
               output += '<p>' + val.project_year + ' ' + val.info + '</p></span></a>';  
