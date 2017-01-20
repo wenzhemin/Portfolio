@@ -12,7 +12,6 @@ var dest = 'builds/';
 
 
 var jsSources = [
-  'process/scripts/jquery-3.1.1.min.js',
   'process/scripts/script.js'
 ];
 

@@ -2,7 +2,7 @@ $(document).ready(function(){
 
  
 $.getJSON('data.json', function(data) {
-        $('#intro').append(data.intro);
+        $('#intro').html(data.intro);
          });
         
  
