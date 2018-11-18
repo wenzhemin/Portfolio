@@ -1,18 +1,3 @@
-{
-    "full_name" : "Thomas Alexander Woolff",
-    "pages" : [
-            { "resumé" : "resume.html" },
-            { "arbejde" : "arbejde.html" }
-        ],
-    "cv" : "woolff_resume.pdf",
-    "intro" : "Mit navn er Thomas Alexander Woolff, jeg har beskæftiget med grafisk design og front-end udvikling siden 2001. I øjeblikket arbejder jeg på at blive en full-stack udvikler. Ved siden af dette arbejder jeg som billedkunstner... og på at stå på hænder.",
-    "links" : [
-            { "email" : "t@woolff.dk" },
-            { "linkedin" : "http://www.linkedin.com/in/woolff" },
-            { "facebook" : "https://www.facebook.com/thomasalexander.woolff" },
-            { "instagram" : "https://www.instagram.com/TAWoolff/" },
-            { "tumblr" : "http://blogwoolff.tumblr.com/" },
-            { "twitter" : "https://twitter.com/TAWoolff/" },
-            { "youtube" : "https://www.youtube.com/thomasalexanderwoolff" }
-        ]
-}
+apiUrl: 'http://www.woolff.dk/cockopit/index.php/rest/api',
+      apiToken: '15d423a6a81bb2195fb6adb3fd053e',
+      baseUrl: 'http://www.woolff.dk/cockopit/'
